@@ -1,0 +1,112 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+
+h1 {
+	font-size: 70px;
+	font-weight: lighter;
+	position: absolute;
+	padding-top: 195px;
+	padding-left: 375px;
+	color: white;
+	background-color: transparent;
+}
+
+.containerPhoto1 {
+	text-align: center;
+}
+
+
+.foodPhoto {
+	width: 900px;
+	max-height: 580px;
+	position: center;
+}
+
+#textDescription {
+	text-align: left;
+	position: center;
+	padding: 50px 310px 30px 310px;
+	font-size: 20px;
+}
+
+
+.timeCooking1 {
+	position: relative;
+	text-align: center;
+	width: 25%;
+	height: 25%;
+	padding-left: 470px;
+	padding-bottom: 10px;
+}
+
+
+hr {
+	height: 1px;
+	width: 60%;
+	background-color: silver;
+	margin-left: 270px;
+	text-align: center;
+}
+
+
+h2 {
+	margin: 0px;
+	padding-top: 30px;
+	padding-left: 270px;
+	padding-bottom: 10px;
+}
+
+
+ul li {
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 240px;
+  }
+
+
+ul li:before {
+	content: "- ";
+}
+
+
+.timeCooking2 {
+	position: relative;
+	text-align: center;
+	width: 25%;
+	height: 25%;
+	padding-top: 30px;
+	padding-left: 465px;
+	padding-bottom: 20px;
+}
+
+ol li {
+    font-size: 20px;
+    list-style: none;
+    padding-left: 130px;
+    padding-right: 130px;
+ }
+
+
+ol {
+	counter-reset: item;
+	margin-top: -20px;
+}
+
+
+ol li:before {
+display: inline-block;
+content: counter(item)") ";
+counter-increment: item;
+padding-right: 6px;
+}
+
+ .instructions {
+ 	text-align: left;
+	position: center;
+	padding: 50px 110px 30px 110px;
+	font-size: 20px;
+}
